@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Accessible & Semantic Web Page for Beginners</title>
+  <meta name="description" content="A beginner-friendly guide to creating semantic, accessible, and SEO-optimized web pages using only HTML5.">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header role="banner">
+    <h1>Accessible & Semantic Web Design</h1>
+    <p>Learn how to structure web pages using HTML5 for better accessibility and SEO.</p>
+  </header>
+
+  <!-- Main Navigation -->
+  <nav role="navigation" aria-label="Primary">
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#best-practices">Best Practices</a></li>
+      <li><a href="#resources">Resources</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content Area -->
+  <main role="main">
+
+    <!-- Introduction Section -->
+    <section id="introduction" aria-labelledby="introduction-heading">
+      <h2 id="introduction-heading">Introduction</h2>
+      <p>This web page is an example of how to use semantic HTML5 elements to build accessible and SEO-friendly websites. It uses no CSS or JavaScript, focusing purely on the document structure.</p>
+    </section>
+
+    <!-- Best Practices Section -->
+    <section id="best-practices" aria-labelledby="best-practices-heading">
+      <h2 id="best-practices-heading">Best Practices</h2>
+
+      <article aria-labelledby="semantic-structure-heading">
+        <h3 id="semantic-structure-heading">1. Use Semantic Elements</h3>
+        <p>Tags like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;footer&gt;</code> give your page meaningful structure that helps screen readers and search engines understand your content.</p>
+      </article>
+
+      <article aria-labelledby="accessibility-heading">
+        <h3 id="accessibility-heading">2. Prioritize Accessibility</h3>
+        <p>Include ARIA roles when needed, use clear and descriptive link text, and ensure your page is readable with assistive technologies by providing alt text and using proper heading order.</p>
+      </article>
+
+      <article aria-labelledby="seo-heading">
+        <h3 id="seo-heading">3. Optimize for SEO</h3>
+        <p>Start with a unique and relevant <code>&lt;title&gt;</code> and <code>&lt;meta description&gt;</code>. Use headings properly, keep content readable, and ensure the structure makes sense without visual cues.</p>
+      </article>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" aria-labelledby="resources-heading">
+      <h2 id="resources-heading">Helpful Resources</h2>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener">MDN Web Docs: HTML</a></li>
+        <li><a href="https://www.w3.org/WAI/standards-guidelines/" target="_blank" rel="noopener">W3C Web Accessibility Guidelines</a></li>
+        <li><a href="https://web.dev/learn/html/" target="_blank" rel="noopener">web.dev HTML Learning Path</a></li>
+      </ul>
+    </section>
+
+    <!-- Aside: Extra Notes -->
+    <aside aria-labelledby="note-heading">
+      <h2 id="note-heading">Note on Semantic HTML</h2>
+      <p>Using semantic HTML improves more than just accessibility — it also enhances maintainability, collaboration, and future-proofing of your content.</p>
+    </aside>
+
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <p>&copy; 2025 Semantic Web Examples. All rights reserved.</p>
+    <p><a href="mailto:info@example.com">Contact the Author</a></p>
+  </footer>
+
+</body>
+</html>
